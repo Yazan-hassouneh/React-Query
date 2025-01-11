@@ -6,6 +6,11 @@ import Users from "./component/Users";
 import RQUsers from "./component/RQUsers";
 import {QueryClientProvider, QueryClient} from "react-query"
 import { ReactQueryDevtools } from 'react-query/devtools'
+import RQUsers2 from "./component/RQUsers2";
+import UserDetails from "./component/UserDetails";
+import RQUsers3 from "./component/RQUsers3";
+import ParallelQuery from "./component/ParallelQuery";
+import DependentQuery from "./component/DependentQuery";
 
 const queryClient = new QueryClient()
 
@@ -20,6 +25,11 @@ function App() {
               <Route path="/" element={<Home></Home>}></Route>
               <Route path="/users" element={<Users></Users>}></Route>
               <Route path="/rqusers" element={<RQUsers></RQUsers>}></Route>
+              <Route path="/rqusers2" element={<RQUsers2></RQUsers2>}></Route>
+              <Route path="/rqusers3" element={<RQUsers3></RQUsers3>}></Route>
+              <Route path="/parallel" element={<ParallelQuery></ParallelQuery>}></Route>
+              <Route path="/dependent" element={<DependentQuery userName={"Cosmo"}></DependentQuery>}></Route>
+              <Route path="/userDetails/:id" element={<UserDetails></UserDetails>}></Route>
               <Route path="*" element={<NotFound></NotFound>}></Route>
             </Routes>
         </BrowserRouter>

@@ -30,5 +30,43 @@
         {"id":28,"first_name":"Sharron","last_name":"Aughtie"},
         {"id":29,"first_name":"Dagmar","last_name":"Fleming"},
         {"id":30,"first_name":"Warde","last_name":"Whittlesee"}
+    ],
+    "animals" : [
+        {"id":1,"animal":"Turkey, wild","scientific_name":"Meleagris gallopavo"},
+        {"id":2,"animal":"Bee-eater, carmine","scientific_name":"Merops nubicus"},
+        {"id":3,"animal":"Galapagos hawk","scientific_name":"Buteo galapagoensis"},
+        {"id":4,"animal":"Cat, european wild","scientific_name":"Felis silvestris lybica"},
+        {"id":5,"animal":"Rhesus macaque","scientific_name":"Macaca mulatta"},
+        {"id":6,"animal":"Hornbill, red-billed","scientific_name":"Tockus erythrorhyncus"},
+        {"id":7,"animal":"Gray langur","scientific_name":"Semnopithecus entellus"},
+        {"id":8,"animal":"African bush squirrel","scientific_name":"Paraxerus cepapi"},
+        {"id":9,"animal":"Buttermilk snake","scientific_name":"Coluber constrictor"},
+        {"id":10,"animal":"Quoll, spotted-tailed","scientific_name":"Dasyurus maculatus"},
+        {"id":11,"animal":"American badger","scientific_name":"Taxidea taxus"},
+        {"id":12,"animal":"Brolga crane","scientific_name":"Grus rubicundus"},
+        {"id":13,"animal":"Small-toothed palm civet","scientific_name":"Arctogalidia trivirgata"},
+        {"id":14,"animal":"Opossum, american virginia","scientific_name":"Didelphis virginiana"},
+        {"id":15,"animal":"Duck, blue","scientific_name":"Hymenolaimus malacorhynchus"},
+        {"id":16,"animal":"Roseat flamingo","scientific_name":"Phoenicopterus ruber"},
+        {"id":17,"animal":"Dove, galapagos","scientific_name":"Zenaida galapagoensis"},
+        {"id":18,"animal":"Peacock, indian","scientific_name":"Pavo cristatus"},
+        {"id":19,"animal":"Wolf, mexican","scientific_name":"Canis lupus baileyi"},
+        {"id":20,"animal":"Springbuck","scientific_name":"Antidorcas marsupialis"},
+        {"id":21,"animal":"Steller's sea lion","scientific_name":"Eumetopias jubatus"},
+        {"id":22,"animal":"Nelson ground squirrel","scientific_name":"Ammospermophilus nelsoni"},
+        {"id":23,"animal":"Common boubou shrike","scientific_name":"Laniarius ferrugineus"},
+        {"id":24,"animal":"Southern ground hornbill","scientific_name":"Bucorvus leadbeateri"},
+        {"id":25,"animal":"Racer, american","scientific_name":"Coluber constrictor"},
+        {"id":26,"animal":"Bulbul, black-fronted","scientific_name":"Pycnonotus nigricans"},
+        {"id":27,"animal":"Bushbaby, large-eared","scientific_name":"Galago crassicaudataus"},
+        {"id":28,"animal":"Burmese black mountain tortoise","scientific_name":"Manouria emys"},
+        {"id":29,"animal":"Python, carpet","scientific_name":"Morelia spilotes variegata"},
+        {"id":30,"animal":"Bontebok","scientific_name":"Damaliscus dorcas"}
+    ],
+    "experiences" : [
+        {
+            "userId" : 3,
+            "experience" : ["react", "asp.net", "sql"]
+        }
     ]
 }

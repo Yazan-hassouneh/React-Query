@@ -15,6 +15,10 @@ function BasicNav() {
                     <NavLink to={"/"} className='mx-3 text-decoration-none text-dark'>Home</NavLink> 
                     <NavLink to={"/users"} className='mx-3 text-decoration-none text-dark'>Users</NavLink>
                     <NavLink to={"/rqusers"} className='mx-3 text-decoration-none text-dark'>RqUsers</NavLink>
+                    <NavLink to={"/rqusers2"} className='mx-3 text-decoration-none text-dark'>RqUsers2</NavLink>
+                    <NavLink to={"/rqusers3"} className='mx-3 text-decoration-none text-dark'>RqUsers3</NavLink>
+                    <NavLink to={"/parallel"} className='mx-3 text-decoration-none text-dark'>parallel</NavLink>
+                    <NavLink to={"/dependent"} className='mx-3 text-decoration-none text-dark'>dependent</NavLink>
                 </Nav>
                 </Navbar.Collapse>
             </Container>
