@@ -19,6 +19,8 @@ function BasicNav() {
                     <NavLink to={"/rqusers3"} className='mx-3 text-decoration-none text-dark'>RqUsers3</NavLink>
                     <NavLink to={"/parallel"} className='mx-3 text-decoration-none text-dark'>parallel</NavLink>
                     <NavLink to={"/dependent"} className='mx-3 text-decoration-none text-dark'>dependent</NavLink>
+                    <NavLink to={"/InitialQueryData"} className='mx-3 text-decoration-none text-dark'>InitialQueryData</NavLink>
+                    <NavLink to={"/colors"} className='mx-3 text-decoration-none text-dark'>Colors</NavLink>
                 </Nav>
                 </Navbar.Collapse>
             </Container>

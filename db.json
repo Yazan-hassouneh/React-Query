@@ -1,72 +1,804 @@
 {
-    "users" : [
-        {"id":1,"first_name":"Florencia","last_name":"McQuilty"},
-        {"id":2,"first_name":"Sadie","last_name":"Proby"},
-        {"id":3,"first_name":"Cosmo","last_name":"Creavin"},
-        {"id":4,"first_name":"Brenna","last_name":"Hallad"},
-        {"id":5,"first_name":"Mary","last_name":"Shanks"},
-        {"id":6,"first_name":"Wendye","last_name":"Claughton"},
-        {"id":7,"first_name":"Kennett","last_name":"Lewzey"},
-        {"id":8,"first_name":"Lulita","last_name":"Lambell"},
-        {"id":9,"first_name":"Tracie","last_name":"Rizzardini"},
-        {"id":10,"first_name":"Bibby","last_name":"Rait"},
-        {"id":11,"first_name":"Henderson","last_name":"Cromie"},
-        {"id":12,"first_name":"Nerty","last_name":"Long"},
-        {"id":13,"first_name":"Marven","last_name":"Grey"},
-        {"id":14,"first_name":"Caren","last_name":"Feavyour"},
-        {"id":15,"first_name":"Rosemary","last_name":"Rains"},
-        {"id":16,"first_name":"Inna","last_name":"Cracie"},
-        {"id":17,"first_name":"Drusi","last_name":"Kerner"},
-        {"id":18,"first_name":"Mathilde","last_name":"Measures"},
-        {"id":19,"first_name":"Brana","last_name":"Casarini"},
-        {"id":20,"first_name":"Charlot","last_name":"Wartonby"},
-        {"id":21,"first_name":"Jonathon","last_name":"Dyble"},
-        {"id":22,"first_name":"Susan","last_name":"Lutz"},
-        {"id":23,"first_name":"Lydon","last_name":"Sharnock"},
-        {"id":24,"first_name":"Trent","last_name":"O' Dooley"},
-        {"id":25,"first_name":"Flinn","last_name":"Button"},
-        {"id":26,"first_name":"Darin","last_name":"Restill"},
-        {"id":27,"first_name":"Donnie","last_name":"Bridgens"},
-        {"id":28,"first_name":"Sharron","last_name":"Aughtie"},
-        {"id":29,"first_name":"Dagmar","last_name":"Fleming"},
-        {"id":30,"first_name":"Warde","last_name":"Whittlesee"}
-    ],
-    "animals" : [
-        {"id":1,"animal":"Turkey, wild","scientific_name":"Meleagris gallopavo"},
-        {"id":2,"animal":"Bee-eater, carmine","scientific_name":"Merops nubicus"},
-        {"id":3,"animal":"Galapagos hawk","scientific_name":"Buteo galapagoensis"},
-        {"id":4,"animal":"Cat, european wild","scientific_name":"Felis silvestris lybica"},
-        {"id":5,"animal":"Rhesus macaque","scientific_name":"Macaca mulatta"},
-        {"id":6,"animal":"Hornbill, red-billed","scientific_name":"Tockus erythrorhyncus"},
-        {"id":7,"animal":"Gray langur","scientific_name":"Semnopithecus entellus"},
-        {"id":8,"animal":"African bush squirrel","scientific_name":"Paraxerus cepapi"},
-        {"id":9,"animal":"Buttermilk snake","scientific_name":"Coluber constrictor"},
-        {"id":10,"animal":"Quoll, spotted-tailed","scientific_name":"Dasyurus maculatus"},
-        {"id":11,"animal":"American badger","scientific_name":"Taxidea taxus"},
-        {"id":12,"animal":"Brolga crane","scientific_name":"Grus rubicundus"},
-        {"id":13,"animal":"Small-toothed palm civet","scientific_name":"Arctogalidia trivirgata"},
-        {"id":14,"animal":"Opossum, american virginia","scientific_name":"Didelphis virginiana"},
-        {"id":15,"animal":"Duck, blue","scientific_name":"Hymenolaimus malacorhynchus"},
-        {"id":16,"animal":"Roseat flamingo","scientific_name":"Phoenicopterus ruber"},
-        {"id":17,"animal":"Dove, galapagos","scientific_name":"Zenaida galapagoensis"},
-        {"id":18,"animal":"Peacock, indian","scientific_name":"Pavo cristatus"},
-        {"id":19,"animal":"Wolf, mexican","scientific_name":"Canis lupus baileyi"},
-        {"id":20,"animal":"Springbuck","scientific_name":"Antidorcas marsupialis"},
-        {"id":21,"animal":"Steller's sea lion","scientific_name":"Eumetopias jubatus"},
-        {"id":22,"animal":"Nelson ground squirrel","scientific_name":"Ammospermophilus nelsoni"},
-        {"id":23,"animal":"Common boubou shrike","scientific_name":"Laniarius ferrugineus"},
-        {"id":24,"animal":"Southern ground hornbill","scientific_name":"Bucorvus leadbeateri"},
-        {"id":25,"animal":"Racer, american","scientific_name":"Coluber constrictor"},
-        {"id":26,"animal":"Bulbul, black-fronted","scientific_name":"Pycnonotus nigricans"},
-        {"id":27,"animal":"Bushbaby, large-eared","scientific_name":"Galago crassicaudataus"},
-        {"id":28,"animal":"Burmese black mountain tortoise","scientific_name":"Manouria emys"},
-        {"id":29,"animal":"Python, carpet","scientific_name":"Morelia spilotes variegata"},
-        {"id":30,"animal":"Bontebok","scientific_name":"Damaliscus dorcas"}
-    ],
-    "experiences" : [
-        {
-            "userId" : 3,
-            "experience" : ["react", "asp.net", "sql"]
-        }
-    ]
+  "users": [
+    {
+      "id": "1",
+      "first_name": "Florencia",
+      "last_name": "McQuilty"
+    },
+    {
+      "id": "2",
+      "first_name": "Sadie",
+      "last_name": "Proby"
+    },
+    {
+      "id": "3",
+      "first_name": "Cosmo",
+      "last_name": "Creavin"
+    },
+    {
+      "id": "4",
+      "first_name": "Brenna",
+      "last_name": "Hallad"
+    },
+    {
+      "id": "5",
+      "first_name": "Mary",
+      "last_name": "Shanks"
+    },
+    {
+      "id": "6",
+      "first_name": "Wendye",
+      "last_name": "Claughton"
+    },
+    {
+      "id": "7",
+      "first_name": "Kennett",
+      "last_name": "Lewzey"
+    },
+    {
+      "id": "8",
+      "first_name": "Lulita",
+      "last_name": "Lambell"
+    },
+    {
+      "id": "9",
+      "first_name": "Tracie",
+      "last_name": "Rizzardini"
+    },
+    {
+      "id": "10",
+      "first_name": "Bibby",
+      "last_name": "Rait"
+    },
+    {
+      "id": "11",
+      "first_name": "Henderson",
+      "last_name": "Cromie"
+    },
+    {
+      "id": "12",
+      "first_name": "Nerty",
+      "last_name": "Long"
+    },
+    {
+      "id": "13",
+      "first_name": "Marven",
+      "last_name": "Grey"
+    },
+    {
+      "id": "14",
+      "first_name": "Caren",
+      "last_name": "Feavyour"
+    },
+    {
+      "id": "15",
+      "first_name": "Rosemary",
+      "last_name": "Rains"
+    },
+    {
+      "id": "16",
+      "first_name": "Inna",
+      "last_name": "Cracie"
+    },
+    {
+      "id": "17",
+      "first_name": "Drusi",
+      "last_name": "Kerner"
+    },
+    {
+      "id": "18",
+      "first_name": "Mathilde",
+      "last_name": "Measures"
+    },
+    {
+      "id": "19",
+      "first_name": "Brana",
+      "last_name": "Casarini"
+    },
+    {
+      "id": "20",
+      "first_name": "Charlot",
+      "last_name": "Wartonby"
+    },
+    {
+      "id": "21",
+      "first_name": "Jonathon",
+      "last_name": "Dyble"
+    },
+    {
+      "id": "22",
+      "first_name": "Susan",
+      "last_name": "Lutz"
+    },
+    {
+      "id": "23",
+      "first_name": "Lydon",
+      "last_name": "Sharnock"
+    },
+    {
+      "id": "24",
+      "first_name": "Trent",
+      "last_name": "O' Dooley"
+    },
+    {
+      "id": "25",
+      "first_name": "Flinn",
+      "last_name": "Button"
+    },
+    {
+      "id": "26",
+      "first_name": "Darin",
+      "last_name": "Restill"
+    },
+    {
+      "id": "27",
+      "first_name": "Donnie",
+      "last_name": "Bridgens"
+    },
+    {
+      "id": "28",
+      "first_name": "Sharron",
+      "last_name": "Aughtie"
+    },
+    {
+      "id": "29",
+      "first_name": "Dagmar",
+      "last_name": "Fleming"
+    },
+    {
+      "id": "30",
+      "first_name": "Warde",
+      "last_name": "Whittlesee"
+    },
+    {
+      "id": "31",
+      "first_name": "yazan",
+      "last_name": "hassouneh"
+    }
+  ],
+  "animals": [
+    {
+      "id": "1",
+      "animal": "Turkey, wild",
+      "scientific_name": "Meleagris gallopavo"
+    },
+    {
+      "id": "2",
+      "animal": "Bee-eater, carmine",
+      "scientific_name": "Merops nubicus"
+    },
+    {
+      "id": "3",
+      "animal": "Galapagos hawk",
+      "scientific_name": "Buteo galapagoensis"
+    },
+    {
+      "id": "4",
+      "animal": "Cat, european wild",
+      "scientific_name": "Felis silvestris lybica"
+    },
+    {
+      "id": "5",
+      "animal": "Rhesus macaque",
+      "scientific_name": "Macaca mulatta"
+    },
+    {
+      "id": "6",
+      "animal": "Hornbill, red-billed",
+      "scientific_name": "Tockus erythrorhyncus"
+    },
+    {
+      "id": "7",
+      "animal": "Gray langur",
+      "scientific_name": "Semnopithecus entellus"
+    },
+    {
+      "id": "8",
+      "animal": "African bush squirrel",
+      "scientific_name": "Paraxerus cepapi"
+    },
+    {
+      "id": "9",
+      "animal": "Buttermilk snake",
+      "scientific_name": "Coluber constrictor"
+    },
+    {
+      "id": "10",
+      "animal": "Quoll, spotted-tailed",
+      "scientific_name": "Dasyurus maculatus"
+    },
+    {
+      "id": "11",
+      "animal": "American badger",
+      "scientific_name": "Taxidea taxus"
+    },
+    {
+      "id": "12",
+      "animal": "Brolga crane",
+      "scientific_name": "Grus rubicundus"
+    },
+    {
+      "id": "13",
+      "animal": "Small-toothed palm civet",
+      "scientific_name": "Arctogalidia trivirgata"
+    },
+    {
+      "id": "14",
+      "animal": "Opossum, american virginia",
+      "scientific_name": "Didelphis virginiana"
+    },
+    {
+      "id": "15",
+      "animal": "Duck, blue",
+      "scientific_name": "Hymenolaimus malacorhynchus"
+    },
+    {
+      "id": "16",
+      "animal": "Roseat flamingo",
+      "scientific_name": "Phoenicopterus ruber"
+    },
+    {
+      "id": "17",
+      "animal": "Dove, galapagos",
+      "scientific_name": "Zenaida galapagoensis"
+    },
+    {
+      "id": "18",
+      "animal": "Peacock, indian",
+      "scientific_name": "Pavo cristatus"
+    },
+    {
+      "id": "19",
+      "animal": "Wolf, mexican",
+      "scientific_name": "Canis lupus baileyi"
+    },
+    {
+      "id": "20",
+      "animal": "Springbuck",
+      "scientific_name": "Antidorcas marsupialis"
+    },
+    {
+      "id": "21",
+      "animal": "Steller's sea lion",
+      "scientific_name": "Eumetopias jubatus"
+    },
+    {
+      "id": "22",
+      "animal": "Nelson ground squirrel",
+      "scientific_name": "Ammospermophilus nelsoni"
+    },
+    {
+      "id": "23",
+      "animal": "Common boubou shrike",
+      "scientific_name": "Laniarius ferrugineus"
+    },
+    {
+      "id": "24",
+      "animal": "Southern ground hornbill",
+      "scientific_name": "Bucorvus leadbeateri"
+    },
+    {
+      "id": "25",
+      "animal": "Racer, american",
+      "scientific_name": "Coluber constrictor"
+    },
+    {
+      "id": "26",
+      "animal": "Bulbul, black-fronted",
+      "scientific_name": "Pycnonotus nigricans"
+    },
+    {
+      "id": "27",
+      "animal": "Bushbaby, large-eared",
+      "scientific_name": "Galago crassicaudataus"
+    },
+    {
+      "id": "28",
+      "animal": "Burmese black mountain tortoise",
+      "scientific_name": "Manouria emys"
+    },
+    {
+      "id": "29",
+      "animal": "Python, carpet",
+      "scientific_name": "Morelia spilotes variegata"
+    },
+    {
+      "id": "30",
+      "animal": "Bontebok",
+      "scientific_name": "Damaliscus dorcas"
+    }
+  ],
+  "experiences": [
+    {
+      "userId": 3,
+      "experience": [
+        "react",
+        "asp.net",
+        "sql"
+      ],
+      "id": "4dc1"
+    }
+  ],
+  "colors": [
+    {
+      "id": "1",
+      "color": "Khaki"
+    },
+    {
+      "id": "2",
+      "color": "Red"
+    },
+    {
+      "id": "3",
+      "color": "Indigo"
+    },
+    {
+      "id": "4",
+      "color": "Mauv"
+    },
+    {
+      "id": "5",
+      "color": "Goldenrod"
+    },
+    {
+      "id": "6",
+      "color": "Green"
+    },
+    {
+      "id": "7",
+      "color": "Violet"
+    },
+    {
+      "id": "8",
+      "color": "Orange"
+    },
+    {
+      "id": "9",
+      "color": "Violet"
+    },
+    {
+      "id": "10",
+      "color": "Mauv"
+    },
+    {
+      "id": "11",
+      "color": "Yellow"
+    },
+    {
+      "id": "12",
+      "color": "Aquamarine"
+    },
+    {
+      "id": "13",
+      "color": "Teal"
+    },
+    {
+      "id": "14",
+      "color": "Aquamarine"
+    },
+    {
+      "id": "15",
+      "color": "Fuscia"
+    },
+    {
+      "id": "16",
+      "color": "Goldenrod"
+    },
+    {
+      "id": "17",
+      "color": "Turquoise"
+    },
+    {
+      "id": "18",
+      "color": "Purple"
+    },
+    {
+      "id": "19",
+      "color": "Indigo"
+    },
+    {
+      "id": "20",
+      "color": "Purple"
+    },
+    {
+      "id": "21",
+      "color": "Red"
+    },
+    {
+      "id": "22",
+      "color": "Aquamarine"
+    },
+    {
+      "id": "23",
+      "color": "Puce"
+    },
+    {
+      "id": "24",
+      "color": "Indigo"
+    },
+    {
+      "id": "25",
+      "color": "Aquamarine"
+    },
+    {
+      "id": "26",
+      "color": "Goldenrod"
+    },
+    {
+      "id": "27",
+      "color": "Mauv"
+    },
+    {
+      "id": "28",
+      "color": "Indigo"
+    },
+    {
+      "id": "29",
+      "color": "Pink"
+    },
+    {
+      "id": "30",
+      "color": "Green"
+    },
+    {
+      "id": "31",
+      "color": "Green"
+    },
+    {
+      "id": "32",
+      "color": "Red"
+    },
+    {
+      "id": "33",
+      "color": "Teal"
+    },
+    {
+      "id": "34",
+      "color": "Crimson"
+    },
+    {
+      "id": "35",
+      "color": "Blue"
+    },
+    {
+      "id": "36",
+      "color": "Orange"
+    },
+    {
+      "id": "37",
+      "color": "Fuscia"
+    },
+    {
+      "id": "38",
+      "color": "Crimson"
+    },
+    {
+      "id": "39",
+      "color": "Purple"
+    },
+    {
+      "id": "40",
+      "color": "Indigo"
+    },
+    {
+      "id": "41",
+      "color": "Green"
+    },
+    {
+      "id": "42",
+      "color": "Turquoise"
+    },
+    {
+      "id": "43",
+      "color": "Indigo"
+    },
+    {
+      "id": "44",
+      "color": "Maroon"
+    },
+    {
+      "id": "45",
+      "color": "Puce"
+    },
+    {
+      "id": "46",
+      "color": "Violet"
+    },
+    {
+      "id": "47",
+      "color": "Aquamarine"
+    },
+    {
+      "id": "48",
+      "color": "Mauv"
+    },
+    {
+      "id": "49",
+      "color": "Fuscia"
+    },
+    {
+      "id": "50",
+      "color": "Puce"
+    },
+    {
+      "id": "51",
+      "color": "Purple"
+    },
+    {
+      "id": "52",
+      "color": "Maroon"
+    },
+    {
+      "id": "53",
+      "color": "Orange"
+    },
+    {
+      "id": "54",
+      "color": "Indigo"
+    },
+    {
+      "id": "55",
+      "color": "Red"
+    },
+    {
+      "id": "56",
+      "color": "Indigo"
+    },
+    {
+      "id": "57",
+      "color": "Maroon"
+    },
+    {
+      "id": "58",
+      "color": "Blue"
+    },
+    {
+      "id": "59",
+      "color": "Aquamarine"
+    },
+    {
+      "id": "60",
+      "color": "Khaki"
+    },
+    {
+      "id": "61",
+      "color": "Blue"
+    },
+    {
+      "id": "62",
+      "color": "Khaki"
+    },
+    {
+      "id": "63",
+      "color": "Yellow"
+    },
+    {
+      "id": "64",
+      "color": "Crimson"
+    },
+    {
+      "id": "65",
+      "color": "Violet"
+    },
+    {
+      "id": "66",
+      "color": "Indigo"
+    },
+    {
+      "id": "67",
+      "color": "Crimson"
+    },
+    {
+      "id": "68",
+      "color": "Goldenrod"
+    },
+    {
+      "id": "69",
+      "color": "Teal"
+    },
+    {
+      "id": "70",
+      "color": "Mauv"
+    },
+    {
+      "id": "71",
+      "color": "Violet"
+    },
+    {
+      "id": "72",
+      "color": "Aquamarine"
+    },
+    {
+      "id": "73",
+      "color": "Orange"
+    },
+    {
+      "id": "74",
+      "color": "Blue"
+    },
+    {
+      "id": "75",
+      "color": "Teal"
+    },
+    {
+      "id": "76",
+      "color": "Blue"
+    },
+    {
+      "id": "77",
+      "color": "Green"
+    },
+    {
+      "id": "78",
+      "color": "Green"
+    },
+    {
+      "id": "79",
+      "color": "Fuscia"
+    },
+    {
+      "id": "80",
+      "color": "Crimson"
+    },
+    {
+      "id": "81",
+      "color": "Turquoise"
+    },
+    {
+      "id": "82",
+      "color": "Puce"
+    },
+    {
+      "id": "83",
+      "color": "Mauv"
+    },
+    {
+      "id": "84",
+      "color": "Crimson"
+    },
+    {
+      "id": "85",
+      "color": "Red"
+    },
+    {
+      "id": "86",
+      "color": "Crimson"
+    },
+    {
+      "id": "87",
+      "color": "Puce"
+    },
+    {
+      "id": "88",
+      "color": "Crimson"
+    },
+    {
+      "id": "89",
+      "color": "Khaki"
+    },
+    {
+      "id": "90",
+      "color": "Aquamarine"
+    },
+    {
+      "id": "91",
+      "color": "Fuscia"
+    },
+    {
+      "id": "92",
+      "color": "Mauv"
+    },
+    {
+      "id": "93",
+      "color": "Purple"
+    },
+    {
+      "id": "94",
+      "color": "Red"
+    },
+    {
+      "id": "95",
+      "color": "Yellow"
+    },
+    {
+      "id": "96",
+      "color": "Turquoise"
+    },
+    {
+      "id": "97",
+      "color": "Yellow"
+    },
+    {
+      "id": "98",
+      "color": "Pink"
+    },
+    {
+      "id": "99",
+      "color": "Turquoise"
+    },
+    {
+      "id": "100",
+      "color": "Blue"
+    },
+    {
+      "id": "101",
+      "color": "Goldenrod"
+    },
+    {
+      "id": "102",
+      "color": "Orange"
+    },
+    {
+      "id": "103",
+      "color": "Yellow"
+    },
+    {
+      "id": "104",
+      "color": "Goldenrod"
+    },
+    {
+      "id": "105",
+      "color": "Aquamarine"
+    },
+    {
+      "id": "106",
+      "color": "Purple"
+    },
+    {
+      "id": "107",
+      "color": "Purple"
+    },
+    {
+      "id": "108",
+      "color": "Orange"
+    },
+    {
+      "id": "109",
+      "color": "Turquoise"
+    },
+    {
+      "id": "110",
+      "color": "Puce"
+    },
+    {
+      "id": "111",
+      "color": "Goldenrod"
+    },
+    {
+      "id": "112",
+      "color": "Teal"
+    },
+    {
+      "id": "113",
+      "color": "Khaki"
+    },
+    {
+      "id": "114",
+      "color": "Maroon"
+    },
+    {
+      "id": "115",
+      "color": "Green"
+    },
+    {
+      "id": "116",
+      "color": "Yellow"
+    },
+    {
+      "id": "117",
+      "color": "Khaki"
+    },
+    {
+      "id": "118",
+      "color": "Indigo"
+    },
+    {
+      "id": "119",
+      "color": "Fuscia"
+    },
+    {
+      "id": "120",
+      "color": "Violet"
+    }
+  ]
 }
